@@ -1,0 +1,11 @@
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #ffdbd0;
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid salmon;
+    position: relative;
+    bottom: 0;
+  }
