@@ -31,7 +31,7 @@ td {
 }
 
 .cell {
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 3px;
     background-color: lightgray;
 }

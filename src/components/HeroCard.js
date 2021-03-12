@@ -52,7 +52,7 @@ export default function HeroCard({Pkmn}) {
             <Table>
                 {Pkmn.stats.map((pkmnstat) => (
                     <TableRow className="cell">
-                        <TableCell /* className="cell capitalize" */ variant="head"><strong>{pkmnstat.stat.name}</strong></TableCell>
+                        <TableCell className="capitalize" variant="head"><strong>{pkmnstat.stat.name}</strong></TableCell>
                         <TableCell ><strong>{pkmnstat.base_stat}</strong></TableCell>
                     </TableRow>
 
